@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>S</span>iva .</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Sivagopi</span></h1>
+                <p>Web Devloper</p>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I'm a versatile web designer due to my extensive history in web design. My dedication to continuously learning about new web design trends and concepts has made me a valuable member of the team. With two years of experience and a master's in web design</p>
+                    <br>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-end</span><br>HTML<br>CSS<br>Java-script<br>React-Js</li>
+                            <br>
+                            <li><span>Language</span><br>Python</li>
+                            <br>
+                            <li><span>Database</span><br>Sql</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br><br>Currently no experience</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - Current</span><br>Pursuing Btech Cse at Lovely Professional University</li>
+                            <br>
+                            <li><span>2018 - 2020</span><br>Intermediate form Sri Chaitanya Junior College</li>
+                            <br>
+                            <li><span>2010 - 2018</span><br>SSC from S.V.V.N.High School</li>
+                        </ul>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Projects">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="projects-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Word Game</h2>
+                        <p>This is word guessing game. In this game it have default questions and you have few chances for guessing the answer.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Quiz Application</h2>
+                        <p>This is a quiz taking application. In this app it have five questions and each question have four options and you have to select one option. At  end you have your score</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-crop"></i>
+                        <h2>Flipkart Clone</h2>
+                        <p>This is a flipkart colne application. This app worked by our voice. If you want any item simply you want say to say through microphone.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work-1.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app connects you the talented people around the world. Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-2.png">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>The app connects you the talented people around the world. Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-3.png">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>The app connects you the talented people around the world. Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>  perumallasivagopi1234@gamil.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> 6303884032</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/sivagopi.perumalla?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/SivaPawaNisT1"><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="https://instagram.com/bheemlafied?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/sivagopi-perumalla-b29b85203"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/PerumallaSivagopi"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <br>
+                        <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Siva . Made with <i class="fa-solid fa-heart"></i> by Perumalla Sivagopi</p>
+            </div>
+        </div>
+
+
+       <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+                
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    }
+       </script> 
+
+       <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+       </script>
+    
+</body>
+</html>
